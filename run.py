@@ -76,9 +76,5 @@ def quick_test(link="http://en.wikipedia.org/wiki/Apple"):
     find_links(link, covered)
 
 
-def simple():
-    main_game("http://en.wikipedia.org/wiki/Yogurt", "http://en.wikipedia.org/wiki/Seleucid_Empire")
-
-
 if __name__ == '__main__':
     cProfile.run('simple()', 'restats')
